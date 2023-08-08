@@ -451,17 +451,20 @@ footer img {
    
 
     .imagen{
-        height: 120px;
+        height: 100px;
         
     }
       
-    
+    .buttonindex{
+        width: 180px;
+        margin-left: 0;
+    }
     
     
     .imgindex{
-        width: 290px;
-        height: 290px;
-        margin-left: 10%;
+        width: 240px;
+        height: 240px;
+        margin-left: 4%;
         margin-right: 4%;
         }
 
@@ -476,14 +479,14 @@ footer img {
 
     .buttonnavbarciudades{
         width: 25%;
-        margin-left: 50%;
+        margin-left: 70%;
 
     }
     .imgciudades{
 
-        width: 300px;
+        width: 280px;
         height: 300px;
-        justify-content: center;
+       
 }
 .mainciudades{
   width: 100%;
@@ -503,9 +506,11 @@ footer img {
 .container{
     --bs-gutter-x: 0;
 }
+ .caja{
+    width: 290px
+ }   
     
-    
-  
+
         
  /*footer media query*/   
 
@@ -537,22 +542,34 @@ footer img{
     .imgindex{
         width: 290px;
         height: 290px;
+        margin: 0;
        
         }
 
-        button{
-            left: 17%;
+    .buttonindex{
+            width: 200px;
+            margin-left: 0;
         }
+    .caja{
+        padding: 30px;
+       
+    }
     
 
 }
 /*ciudades*/
 .imgciudades{
 
-    width: 380px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     justify-content: center;
+
 }
+
+.buttonciudades{
+    width: 180px;
+}
+
 
 /*desktop*/
 @media only screen and (min-width:961px)and (max-width:1999) {
