@@ -21,106 +21,93 @@ body {
 }
  
 
-/*.inicio {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-   */
 
 /*header*/
 
-.titulo{
-    color: black;
-    font-family:"bebas neue";
-    
-    
-
+header nav div a{
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: justify;
+    font-weight:500;
+    margin: 9px 8px;
 
 }
+.titulosnav{
+    display: flex;
+    justify-content: flex-end;
+} 
+
 
 header{
-    background-color: #525FE1;
+    background-color:#FF884B;
     position: sticky;
     top: 0;
     align-items: end;
     z-index: 2;
-    padding-right: 6%;
    
     
 }
-
-
-    
-    
-   
-
-  /*.lista {
-    background-color: #E8FFC2;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;*/
-    
-
-  
-
- 
     
 
 /*banner*/
- .banner{
-    
-    color: white;
-    text-align: center;
-        font-size: 2rem;
-    }
  
-.imagen{
-        background-image: url(imagenes/bannerdefinitivo2.jpg);
-        width: 100%;
-        height: 500px;
-        background-position: center;
-        background-size: cover;
-        text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
-        padding: 100px;
+.banner{
+    background-image: url(imagenes/2023-08-11.png);
+    background-size: cover;
+    background-position:top;
+    color: black;
+    text-align: center;
+    padding: 120px 0px;
+      
         
     
-        
-        
-    } 
+    }
+.tituloindex{
+    font-size: 4rem;
+}
+.subtituloindex{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
+    
+}
        
    
     /*main de index*/
 
-.iconos{
+.div-index{
     background-color:#FFD93D;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    justify-content: center;
+    padding-bottom:40px ;
+    padding-top: 40px;
+    
     
     
    
 }
 
-.caja{
+.cajas{
     position: relative;
     width:400px;
     height: 400px ;
+    margin-top: 30px;
+    
+    
     
 }
 .buttonindex{
     position: absolute;
     top: 20%;
-    left: 20%;
-    width: 250px;
-    height: 70px;
+    left: 25%;
+    width: 60%;
+    height: 20%;
     z-index: 1;
 
-  /*color: #E8FFC2;
-    text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
-    text-align: center;*/
+ 
     
 }
 
@@ -129,8 +116,8 @@ header{
 
 
 main div img {
-    width: 350px;
-    height: 350px; 
+    width: 80%;
+    height: 80%; 
     margin-left: 2rem;
     margin-right: 2rem;
     border-radius: 28px 28px 26px 26px;
@@ -157,6 +144,7 @@ main div img {
     width: 100%;
     height: 100%;
   }
+
   
 .suhistoriamain-grid{
     background-color:#FFD93D;
@@ -164,24 +152,26 @@ main div img {
     grid-template-areas: 
     "h1        h1           h1       h1  "
     "img1     img1          p1      p1  "
-    "img1     img1          p1      p1  "
-    "p2       p2           img2    img2"
-    "p2       p2           img2    img2"
+    "img1     img1          p2      p2  "
+    "p3       p3           img2    img2"
+    "p4       p4           img2    img2"
     "h2       h2           h2       h2"
     "video1       video1       video1   video1";
-    grid-template-rows: 150px 250px 200px 200px 350px 150px 500px;
+    grid-template-rows: 100px 250px 200px 200px 350px 130px 490px;
     grid-template-columns: 20% 15% 50%;
+    
     
 } 
 
 
 .suhistoria{
-    background-color: #FF884B;
+    background-color: #97FEED;
     color: white;
     font-size: 3rem;
     grid-area: h1;
     text-align: center;
-    padding: 20px ;
+    text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
+    padding:20px;
    
   
    
@@ -192,10 +182,16 @@ main div img {
 
 .grid-img-1{
     grid-area: img1;
+    border-radius: 28px 28px 26px 26px;
+    -webkit-border-radius: 28px 28px 26px 26px;
+    -moz-border-radius: 28px 28px 26px 26px;
     
 }
 .grid-img-2{
     grid-area: img2;
+    border-radius: 28px 28px 26px 26px;
+    -webkit-border-radius: 28px 28px 26px 26px;
+    -moz-border-radius: 28px 28px 26px 26px;
     
 
 }
@@ -213,21 +209,40 @@ main div img {
 .suhistoriap2{
     color: white;
     font-size: 1.3rem;
-    margin-top: 2rem;
     margin-left: 2rem;
     margin-right:  2rem;
     text-align: center;
     grid-area: p2;
 }
+.suhistoriap3{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right:  2rem;
+    text-align: center;
+    grid-area: p3;
+
+}
+.suhistoriap4{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right:  2rem;
+    text-align: center;
+    grid-area: p4;
+}
 
 .aprendemas{
-    background-color: #FF884B;
+    background-color:#97FEED;
     color: white;
     font-size: 3rem;
     text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
     text-align: center;
     margin-top: 2rem;
     grid-area: h2;
+    padding: 23px  0px;
     
 }
 
@@ -235,7 +250,7 @@ main div img {
     grid-area: video1;
     width: 100%;
     height: 100%;
-    
+   
    
     
        
@@ -335,7 +350,7 @@ main div img {
     margin-top:  10%;
     margin-left: 9%;
     color: white;
-    font-size: 60px;
+    font-size: 6rem;
     text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
     text-align: center;
     z-index: 1;
@@ -401,7 +416,7 @@ main div img {
 
 }
 .carouselh2yp{
-    font-size: 20px;
+    font-size: 2rem;
     text-shadow: 0px 0px 15px rgba(0,0,0,0.81);
     text-align: center;
     
@@ -421,178 +436,83 @@ main div img {
 
 
 /*inicio footer*/
-footer{
-    background-color: #525FE1;
+
+.padrefooter{
+    background-color:#FF884B;
     display: flex;
-    justify-content: right;
-}
-footer img {
-    width: 200px;
-   
-
-}
-/*mibile*/
-@media only screen and (max-width:500px){
-    /*media query para index*/
-    .lista{padding-top: 3%;
-        padding-bottom: 3%;
-        padding-left: 1%;
-    }
-   
-    nav a {
-        font-size: 1rem;
-    
-    }
-    .buttonnavbar{
-        width: 20%;
-        margin-left: 50%;
-
-    }
-   
-
-    .imagen{
-        height: 100px;
-        
-    }
-      
-    .buttonindex{
-        width: 180px;
-        margin-left: 0;
-    }
-    
-    
-    .imgindex{
-        width: 240px;
-        height: 240px;
-        margin-left: 4%;
-        margin-right: 4%;
-        }
-
-    
-    main div h2 {
-        margin-top: 30%;
-        margin-left: 18%;
-    }
-
-
-    /*media query ciudades*/
-
-    .buttonnavbarciudades{
-        width: 25%;
-        margin-left: 70%;
-
-    }
-    .imgciudades{
-
-        width: 280px;
-        height: 300px;
-       
-}
-.mainciudades{
-  width: 100%;
-  height: 800px;
-  
-}
-
-.mainh1ciudades{
-    width: 100%;
-    margin-left: 0;
-}
-
-.h2ciudades{
-    font-size: 40px;
-    margin-left: 28%;
-}
-.container{
-    --bs-gutter-x: 0;
-}
- .caja{
-    width: 290px
- }   
-    
-
-        
- /*footer media query*/   
-
-footer img{
-   width: 70px;
-    height: 70px;
-}
-    
-
-}
+    justify-content:center;
+   padding-top: 10px;
+   padding-bottom: 10px;
  
-/*tablet*/     
-@media only screen and (min-width:501px) and (max-width:960px){
-    .lista{padding-top: 3%;
-        padding-bottom: 3%;
-        padding-left: 1%;
-    }
-    .buttonnavbar{
-        width: 15%;
-        margin-left: 62%;
-        
-        
-    }
-    .imagen{
-        height: 180px;
-        padding: 30%;
-        
-    }
-    .imgindex{
-        width: 290px;
-        height: 290px;
-        margin: 0;
-       
-        }
+}
 
-    .buttonindex{
-            width: 200px;
-            margin-left: 0;
-        }
-    .caja{
-        padding: 30px;
-       
+footer a img{
+    width: 80px;
+    margin-right: 10px;
+}
+   
+    
+
+
+/*mobile*/
+@media only screen and (max-width:500px){
+/*media query para header*/
+    .titulosnav{
+        justify-content: flex-start;
     }
+
+    /*media query para banner*/
+    .banner{
+        padding: 40px 0px;
+    }
+    .tituloindex{
+        font-size: 3rem;
+
+    }
+    .subtituloindex{
+        font-size: 2rem;
+    }
+
+/*media query para banner*/
+header nav div a{
+    font-size: 1rem;
+}
+    
+    
+/*  media query ciudades*/
+
+    .suhistoriamain-grid{
+        grid-template-areas: 
+    
+        "h1"
+        "p1"
+        "img1 "
+        "p2"
+        "p3   "
+        "img2 "
+        "p4   "
+        "h2"
+        "video1"
+        
+    ;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 500px 300px 370px 250px 200px 380px 100px 300px;
+}
+
+    .suhistoriap3{
+        margin-top: 0px;
+    }
+
+    .aprendemas{
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+ 
     
 
 }
-/*ciudades*/
-.imgciudades{
-
-    width: 270px;
-    height: 270px;
-    justify-content: center;
-
-}
-
-.buttonciudades{
-    width: 180px;
-}
 
 
-/*desktop*/
-@media only screen and (min-width:961px)and (max-width:1999) {
-    .lista{padding-top: 3%;
-        padding-bottom: 3%;
-        padding-left: 1%;
-    }
-    .buttonnavbar{
-        width: 15%;
-        margin-left: 62%;
-    }
 
-    .imgindex{
-            width: 270px;
-            height: 300px;
-            
-           
-            }
 
-        
-            button{
-                left: 16%;
-            }
-        
-        
-}
+ 
