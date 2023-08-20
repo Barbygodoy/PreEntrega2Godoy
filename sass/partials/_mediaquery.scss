@@ -36,9 +36,8 @@
             
         ;
             grid-template-columns: 100%;
-            grid-template-rows: 110px 300px 500px 320px 200px 350px 300px 170px 300px;
+            grid-template-rows: 110px 300px 570px 370px 280px 400px 300px 170px 300px;
     
-        
         
     
         h2{
@@ -51,6 +50,12 @@
         
     
     }
+}
+
+/*media query ciudades*/
+
+.buttonciudades{
+    width: 20%;
 }
 
     
