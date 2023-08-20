@@ -1,0 +1,33 @@
+
+.comidamain{
+    background-color: $salmon;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+
+    h1{
+        @include letras (black,2rem,center)
+
+    }
+    p{
+        @include letras (white, 1.5rem, center)
+    }
+
+}
+
+.cards{
+    background-color: $verde;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+
+    p{
+        font-size: 1rem;
+    }
+
+}
+
+
+

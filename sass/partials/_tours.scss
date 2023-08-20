@@ -1,0 +1,92 @@
+
+
+
+
+
+.div-tours2{
+    background-color: $amarillo;
+    
+    .div1{
+        background-color: $celeste;
+        h2{
+            text-align: center;
+            padding-top: 10px;
+            color: $naranja;
+          
+        }
+        .subtitulo2{
+            color: black;
+            text-align: center;
+            font-size: 1.2rem;
+         
+       
+            
+
+        }   
+        }
+    
+}
+
+
+.sectiontour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2{
+        text-align: center;
+        color: white;
+    }
+    
+}
+.titulo2tours{
+        background-color: $celeste;
+        color: $naranja;
+        padding-left: 20px;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+.subtitulo2tours{
+        background-color: $celeste;
+        font-size: 1.2rem;
+        text-align: center;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+    }
+
+
+
+
+
+    
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+.toursimg{
+   width: 500px;
+   height: 400px;
+   border: 2px solid #E8FFC2;
+   border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+   
+
+} 
+ 
+   
+  

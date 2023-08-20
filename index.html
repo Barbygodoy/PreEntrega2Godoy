@@ -7,12 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+<!--animate style-->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 <!--boostrap-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <!--CSS-->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/css/estilos.css">
   </head>
   <body>
 
@@ -27,8 +31,8 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
-        <div class="titulosnav collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+        <div class="collapse navbar-collapse titulosnav" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
             <a href="index.html">INCIO</a>
             <a  href="page/suhistoria.html">SU HISTORIA</a>
             <a  href="page/ciudades.html">CIUDADES</a>
@@ -48,19 +52,18 @@
     <!--banner-->   
 
     <section class="banner">
-        <h1 class="tituloindex">VIVE TAILANDIA</h1>
-        <h2 class="subtituloindex">El Paraiso Asiatico</h2>
+        <h1 class="tituloindex animate__animated animate__bounceInDown animate__delay-0s animate__repeat-infinite">VIVE TAILANDIA</h1>
+        <h2 class="subtituloindex animate__animated animate__backInUp animate__delay-0s animate__repeat-infinite">El Paraiso Asiatico</h2>
     </section>
 
     <!--inicio main-->
 
-<main class="iconos"> 
+<main> 
     
-        <section class="iconos">
+        <section>
           <div class="div-index">
             <div class="cajas" >
               <a href="page/playasdetailandia.html"><button style="font-size: 30px;"  type="button"  class= "buttonindex btn btn-light">PLAYAS</button></a>
-                <!--<h2 class="tituloinicio">PLAYAS</h2>-->
               <a href="page/playasdetailandia.html"><img class="imgindex" src="imagenes/playastailandiaindex.jpg" alt="playa de Tailandia"></a>
                 
                  
@@ -68,7 +71,6 @@
 
              <div class="cajas" >
               <a href="page/comidatai.html"><button  type="button" style="font-size: 30px;"  class= "buttonindex btn btn-light">COMIDAS</button></a>
-                <!--<h2 class="tituloinicio">COMIDAS</h2>-->
               <a href="page/comidatai.html"><img class="imgindex"    src="imagenes/2023-08-06.png" alt="imagen de comida tailandesa"></a>
                 
                 
@@ -76,15 +78,13 @@
 
             <div class="cajas">
               <a href="https://www.skyscanner.es" target="_blank"><button  type="button" style="font-size: 30px;"  class= "buttonindex btn btn-light">VUELOS</button></a>
-                <!--<h2 class="tituloinicio">VUELOS</h2>-->
               <a href="https://www.skyscanner.es" target="_blank"><img class="imgindex"  class="imagenindex" src="imagenes/vuelos.png" alt="imagen de avion"></a>
                
             </div>  
             
             
             <div class="cajas">
-              <a href="page/tours.html"></a><button  type="button" style="font-size: 30px;"  class= "buttonindex btn btn-light">TOURS</button></a>
-               <!-- <h2 class="tituloinicio">TOURS</h2>-->
+              <a href="page/tours.html"><button  type="button" style="font-size: 30px;"  class= "buttonindex btn btn-light">TOURS</button></a>
               <a href="page/tours.html"><img class="imgindex"  src="imagenes/tours.jpg" alt="imagen de elefantes"></a>
                
                  
@@ -94,7 +94,6 @@
   
              <div class="cajas">
                 <a href="page/ciudades.html"><button  type="button" style="font-size: 30px;"  class= "buttonindex btn btn-light ">CIUDADES</button></a>
-               <!--<h2 class="tituloinicio">CIUDADES</h2>--> 
                 <a href="page/ciudades.html"><img class="imgindex" src="imagenes/tours2.jpg"  alt="imagen de la ciudad de Bangkok"></a>
                 
                 
@@ -102,7 +101,6 @@
 
             <div class="cajas">
                 <a href="https://www.tiempo.com/tailandia.htm" target="_blank"><button  type="button" style="font-size: 30px;"  class= "buttonindex btn btn-light">CLIMA</button></a>
-                <!--<h2 class="tituloinicio">CLIMA</h2>-->
                 <a href="https://www.tiempo.com/tailandia.htm" target="_blank"><img class="imgindex"  src="imagenes/climat.png" alt="imagen de una ciudad de tailandia con un termometro"></a>
                 
                  
@@ -110,7 +108,7 @@
             </div>
         </section>       
 
-        
+       
     
 </main>
 <!--Icio del footer -->

@@ -1,0 +1,102 @@
+.suhistoriamain-grid{
+    background-color:$amarillo;
+    display: grid;
+    grid-template-areas: 
+    "h1        h1           h1       h1  "
+    "img1     img1          p1      p1  "
+    "img1     img1          p2      p2  "
+    "p3       p3           img2    img2"
+    "p4       p4           img2    img2"
+    "h2       h2           h2       h2"
+    "video1       video1       video1   video1";
+    grid-template-rows: 120px 250px 200px 210px 350px 150px 490px;
+    grid-template-columns: 20% 15% 50%;
+    
+    .suhistoria{
+        background-color: $celeste;
+        color: white;
+        font-size: 3rem;
+        grid-area: h1;
+        text-align: center;
+        text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
+        padding:20px;
+    }
+
+    .img-1 {
+        margin-left: 20px;
+      }
+    
+    img {
+        width: 90%;
+        height: 100%;
+   
+       
+        
+      }
+    .grid-img-1{
+        grid-area: img1;
+        border-radius: 28px 28px 26px 26px;
+        -webkit-border-radius: 28px 28px 26px 26px;
+        -moz-border-radius: 28px 28px 26px 26px;
+       
+    }   
+    .grid-img-2{
+        grid-area: img2;
+        border-radius: 28px 28px 26px 26px;
+        -webkit-border-radius: 28px 28px 26px 26px;
+        -moz-border-radius: 28px 28px 26px 26px;
+       
+    }
+        
+    
+    .suhistoriap2{
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right:  2rem;
+        grid-area: p2;
+    }
+    .suhistoriap1{
+        @extend .suhistoriap2;
+        margin-top: 2rem;
+        grid-area: p1;
+    }
+    .suhistoriap3{
+        @extend .suhistoriap2;
+        margin-top: 2rem;
+        grid-area: p3;
+    
+    }
+    
+    .suhistoriap4{
+        @extend .suhistoriap2;
+        margin-top: 2rem;
+        grid-area: p4;
+    }
+
+
+    .aprendemas{
+        background-color:$celeste;
+        color: white;
+        font-size: 3rem;
+        text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
+        text-align: center;
+        margin-top: 2rem;
+        grid-area: h2;
+        padding: 23px  0px;
+    
+    }
+    .grid-video-1{
+        grid-area: video1;
+        width: 100%;
+        height: 100%;
+   
+   
+    
+       
+    }
+     
+
+
+} 
