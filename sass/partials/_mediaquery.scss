@@ -32,31 +32,120 @@
             "p4   "
             "img2 "
             "h2"
-            "video1"
-            
-        ;
+            "video1";
             grid-template-columns: 100%;
             grid-template-rows: 110px 300px 570px 370px 280px 400px 300px 170px 300px;
     
-        
-    
-        h2{
-            font-size: 1rem;
-            margin-top: 0px;
-            padding-bottom: 2px;
+        .aprendemas{
+            font-size: 2.5rem;
         }
-
+    
+        
         
         
     
     }
+
+    /*media query ciudades */ 
+    .div-ciudades{
+        .cajasciudades{
+            button{
+            width: 40%;
+            margin-top: 28%;
+            margin-left: 25%;
+            }
+        }
+    }
+
+    /*media query tours*/
+
+    .sectiontour{
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .toursimg{
+        margin-left: 15px;
+    }
+    .toursimg2{
+        margin-left:15px;
+    }
+
+    .toursimg3{
+        margin-left: 15px;
+    }
+    .toursimg4{
+        margin-left: 15px;
+    }
+
+/*media query playas  (no me lo agarra)*/
+
+.carouselplayas{
+    .imgplayas{
+        height: 400px;
+}
 }
 
-/*media query ciudades*/
+.divplayas{
+    h1{
+        font-size: 1.5rem;
 
-.buttonciudades{
-    width: 20%;
+    }
 }
+
+/*media query comidatai*/
+
+.cards{
+    flex-direction: column;
+
+    .tarjeta1{
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    .tarjeta2{
+        @extend .tarjeta1;
+    }
+
+    .tarjeta3{
+       @extend .tarjeta1; /*tarjeta 3 y 4 no se me modifica nose porque*/
+
+    }
+    .tarjeta4{
+        @extend .tarjeta1;
+    }
+
+
+   
+    
+}
+
+
+
+
+/*media query bangkok, chiang mai , chiang rai*/
+.mapasyvideobangkok{
+    flex-direction: column;
+}
+
+iframe{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 
     
     /*tablet*/
@@ -68,5 +157,3 @@
 
     }
     
-    
-     
