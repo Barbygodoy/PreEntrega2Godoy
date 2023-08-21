@@ -10,10 +10,8 @@ header{
         justify-content: flex-end;
     } 
     a{
-        color: white;
-        font-size: 1.7rem;
+        @include letras (white,1.7rem,justify);
         text-decoration: none;
-        text-align: justify;
         font-weight:500;
         margin: 9px 8px;
     

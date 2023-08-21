@@ -14,10 +14,8 @@
     
     .suhistoria{
         background-color: $celeste;
-        color: white;
-        font-size: 3rem;
+        @include letras (white, 3rem, center);
         grid-area: h1;
-        text-align: center;
         text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
         padding:20px;
     }
@@ -49,9 +47,7 @@
         
     
     .suhistoriap2{
-        color: white;
-        font-size: 1.3rem;
-        text-align: center;
+        @include letras (white, 1,3rem, center);
         margin-left: 2rem;
         margin-right:  2rem;
         grid-area: p2;
@@ -77,10 +73,8 @@
 
     .aprendemas{
         background-color:$celeste;
-        color: white;
-        font-size: 3rem;
+        @include letras (white,3rem,center);
         text-shadow: 0px 0px 11px rgba(0,0,0,0.81);
-        text-align: center;
         margin-top: 2rem;
         grid-area: h2;
         padding: 23px  0px;

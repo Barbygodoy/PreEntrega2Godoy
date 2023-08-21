@@ -18,6 +18,14 @@ body {
     text-align: $align;
 }
 
+@mixin position ( $position, $width, $height ){
+    position:$position;
+    width: $width;
+    height: $height;
+}
+
+
+
 
 
 //@mixin nombre ($var1,$var2);{

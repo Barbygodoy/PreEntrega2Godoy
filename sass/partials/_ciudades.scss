@@ -1,8 +1,6 @@
 .titulociudades{
     background-color: $celeste;
-    color: black;
-    font-size: 3rem;
-    text-align: center;
+    @include letras (black, 3rem, center);
     margin-top: 3px;
     margin-bottom: 0;
     padding: 20px;

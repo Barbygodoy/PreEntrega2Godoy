@@ -34,7 +34,7 @@
         width:20% ;
     }
     .tarjeta3{
-        width: 20%;
+       @extend .tarjeta2
     }
     .tarjeta4{
         width: 30%;

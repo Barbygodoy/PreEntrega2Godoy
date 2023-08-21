@@ -15,13 +15,8 @@
           
         }
         .subtitulo2{
-            color: black;
-            text-align: center;
-            font-size: 1.2rem;
-         
-       
-            
-
+            @include letras (black, 1.2rem, center)
+           
         }   
         }
     
@@ -54,9 +49,7 @@
     }
 .subtitulo2tours{
         background-color: $celeste;
-        font-size: 1.2rem;
-        text-align: center;
-        color: black;
+        @include letras (black,1.2rem,center);
         padding-top: 20px;
         padding-bottom: 20px;
        
@@ -93,10 +86,7 @@
    
  } 
  .toursimg4{
-    width: 90%;
-    height: 90%;
-    border: 2px solid #E8FFC2;
-    margin-left: 35px;
+    @extend .toursimg3
     
    
  } 
