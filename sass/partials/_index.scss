@@ -26,7 +26,7 @@
 /*main de index*/
 
     .div-index{
-        background-color:$amarillo;
+        background-color: $naranja;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -35,7 +35,7 @@
         padding-top: 40px;
         
         .cajas{
-
+            
             @include position (relative,400px,350px);
            
             .buttonindex{

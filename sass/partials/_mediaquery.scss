@@ -101,19 +101,21 @@
 
     .tarjeta1{
         width: 75%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .tarjeta2{
-        @extend .tarjeta1;
+        width: 75%;
+        margin-bottom: 20px;
     }
 
     .tarjeta3{
-       @extend .tarjeta1; /*tarjeta 3 y 4 no se me modifica nose porque*/
-
+       width:75%;
+       margin-bottom: 20px ;
     }
     .tarjeta4{
-        @extend .tarjeta1;
+        width:75%;
+       margin-bottom: 20px;
     }
 
 

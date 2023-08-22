@@ -10,8 +10,8 @@ $font:'Bebas Neue', sans-serif;
 body {
     font-family: "bebas neue";
     font-size: 62.5%; /*10px*/
-  
 }
+
 @mixin letras ( $color, $size, $align){
     color:$color;
     font-size: $size;
@@ -23,6 +23,7 @@ body {
     width: $width;
     height: $height;
 }
+
 
 
 
