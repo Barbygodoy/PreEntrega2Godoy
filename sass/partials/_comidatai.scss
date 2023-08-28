@@ -5,11 +5,11 @@
     padding-top: 2rem;
 
     h1{
-        @include letras (black,2rem,center)
+        @include letras (green,2.5rem,center)
 
     }
     p{
-        @include letras (white, 1.5rem, center)
+        @include letras (black, 1.5rem, center)
     }
 
 }
