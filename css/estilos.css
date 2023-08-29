@@ -131,7 +131,7 @@ footer img {
   -moz-border-radius: 28px 28px 26px 26px;
 }
 .suhistoriamain-grid .suhistoriap2, .suhistoriamain-grid .suhistoriap4, .suhistoriamain-grid .suhistoriap3, .suhistoriamain-grid .suhistoriap1 {
-  color: white;
+  color: black;
   font-size: 1.3rem;
   text-align: center;
   margin-left: 2rem;
@@ -206,6 +206,11 @@ footer img {
 .div-tours2 .div1 {
   background-color: #97FEED;
 }
+.div-tours2 .div1 h1 {
+  text-align: center;
+  padding-top: 10px;
+  color: #FF884B;
+}
 .div-tours2 .div1 h2 {
   text-align: center;
   padding-top: 10px;
@@ -225,7 +230,7 @@ footer img {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-.sectiontour h2 {
+.sectiontour p {
   text-align: center;
   color: white;
 }
@@ -421,12 +426,15 @@ footer img {
   .toursimg4 {
     margin-left: 15px;
   }
-  /*media query playas  (no me lo agarra)*/
+  /*media query playas */
   .carouselplayas .imgplayas {
     height: 400px;
   }
   .divplayas h1 {
     font-size: 1.5rem;
+  }
+  .divplayas p {
+    font-size: 1rem;
   }
   /*media query comidatai*/
   .cards {
@@ -459,4 +467,60 @@ footer img {
   }
 }
 /*tablet*/
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  .banner {
+    padding: 60px 0px;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner h2 {
+    font-size: 2rem;
+  }
+  /*media query su historia*/
+  .suhistoriamain-grid {
+    grid-template-areas: "h1" "p1 " "img1" "p2" "p3   " "p4   " "img2 " "h2" "video1";
+    grid-template-columns: 100%;
+    grid-template-rows: 110px 320px 500px 200px 150px 220px 300px 150px 300px;
+  }
+  /*media query ciudades */
+  .div-ciudades .cajasciudades button {
+    width: 25%;
+    margin-top: 18%;
+    margin-left: 10%;
+  }
+  /*media query tours */
+  .div-tours2 h2 {
+    font-size: 2rem;
+  }
+  .toursimg {
+    margin-left: 15px;
+  }
+  .toursimg2 {
+    margin-left: 15px;
+  }
+  .sectiontour p {
+    font-size: 1.2rem;
+  }
+  /*media query comidatai*/
+  .cards {
+    flex-direction: column;
+  }
+  .cards .tarjeta1 {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .cards .tarjeta2, .cards .tarjeta3 {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .cards .tarjeta3 {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .cards .tarjeta4 {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+}
 /*desktop*//*# sourceMappingURL=estilos.css.map */
